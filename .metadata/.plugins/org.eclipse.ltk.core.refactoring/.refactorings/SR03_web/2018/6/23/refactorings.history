@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;sr03.utc.voitureTemplate&apos; to &apos;vehiculeTemplate&apos;&#x0D;&#x0A;- Original project: &apos;SR03_web&apos;&#x0D;&#x0A;- Original element: &apos;sr03.utc.voitureTemplate&apos;&#x0D;&#x0A;- Renamed element: &apos;sr03.utc.vehiculeTemplate&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;voitureTemplate&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;sr03.utc{voitureTemplate.java[voitureTemplate" matchStrategy="1" name="vehiculeTemplate" qualified="false" references="true" similarDeclarations="false" stamp="1528463627027" textual="false" version="1.0"/>
+</session>

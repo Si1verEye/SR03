@@ -1,0 +1,1416 @@
+!SESSION 2018-03-30 13:32:24.075 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-30 13:33:06.095
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Silver'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-03-30 13:33:07.784
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Service Temporarily Unavailable. ; version: 2.0.6.v20170906-1226
+!STACK 0
+org.apache.http.client.HttpResponseException: Service Temporarily Unavailable
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2018-03-30 13:40:13.966 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-03-30 13:40:34.607
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-03-30 13:40:34.624
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-03-30 13:41:00.163
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-03-30 13:41:00.482
+!MESSAGE Removing part descriptor with the 'org.eclipse.mylyn.builds.navigator.builds' id and the 'Builds' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-30 13:41:01.147
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Silver'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-03-30 13:41:01.813
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.snipmatch.rcp.views.snippets' id and the 'Snippets' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-03-30 13:41:01.970
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Service Temporarily Unavailable. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Service Temporarily Unavailable
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-03-30 13:41:19.712
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+!SESSION 2018-03-30 13:43:43.596 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/Silver/sr03/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-03-30 13:43:50.657
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-03-30 13:43:50.658
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-03-30 13:43:56.731
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-30 13:43:57.231
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Silver'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-03-30 13:43:58.805
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Service Temporarily Unavailable. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.client.HttpResponseException: Service Temporarily Unavailable
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-03-30 13:44:00.694
+!MESSAGE Server ‘org.jboss.tools’ failed with exception: Connect to tools.jboss.org:443 [tools.jboss.org/209.132.182.95] failed: Read timed out. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to tools.jboss.org:443 [tools.jboss.org/209.132.182.95] failed: Read timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:150)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:170)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:64)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 17 more
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-03-30 13:44:04.833
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-03-30 13:44:42.742
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-03-30 13:44:44.050
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-03-30 13:45:01.326
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.eclipse.ui 2 2 2018-03-30 13:45:45.826
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.foundation.ui, page: org.jboss.tools.foundation.ui.internal.credentials.CredentialPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2018-03-30 13:45:45.833
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2018-03-30 13:45:45.834
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2018-03-30 13:45:45.842
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.common.jdt.debug.ui, page: org.jboss.tools.common.jdt.debug.ui.preferences.RemoteDebugPreferencePage)
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2018-03-30 15:27:48.468
+!MESSAGE Error creating SQL Model Connection connection to New MySQL. (Error: Base 'database' inconnue)
+!STACK 0
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Base 'database' inconnue
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:894)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3808)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1256)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2032)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:729)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:283)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2018-03-30 15:27:48.476
+!MESSAGE Error creating JDBC Connection connection to New MySQL. (Error: Base 'database' inconnue)
+!STACK 0
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Base 'database' inconnue
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:894)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3808)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1256)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2032)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:729)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:283)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.datatools.connectivity 4 -1 2018-03-30 15:27:48.496
+!MESSAGE Could not connect to New MySQL.
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-03-30 15:27:48.497
+!MESSAGE Error creating SQL Model Connection connection to New MySQL. (Error: Base 'database' inconnue)
+!STACK 0
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Base 'database' inconnue
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:894)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3808)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1256)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2032)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:729)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:283)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-03-30 15:27:48.497
+!MESSAGE Error creating JDBC Connection connection to New MySQL. (Error: Base 'database' inconnue)
+!STACK 0
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Base 'database' inconnue
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:894)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3808)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1256)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2032)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:729)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:283)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.datatools.connectivity 4 10001 2018-04-01 16:04:26.539
+!MESSAGE Internal Error - org.eclipse.datatools.connectivity
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.datatools.sqltools.internal.core.ControlConnectionManager.cleanUpServerRelatedMap(ControlConnectionManager.java:261)
+	at org.eclipse.datatools.sqltools.internal.core.ControlConnectionManager.remove(ControlConnectionManager.java:247)
+	at org.eclipse.datatools.sqltools.internal.core.AbstractControlConnection.disconnect(AbstractControlConnection.java:213)
+	at org.eclipse.datatools.sqltools.internal.core.AbstractControlConnection$SQLToolsManagedConnectionListener.closed(AbstractControlConnection.java:515)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.close(ManagedConnection.java:326)
+	at org.eclipse.datatools.connectivity.internal.CloseManagedConnectionJob.run(CloseManagedConnectionJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2018-04-06 13:16:55.739 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-06 13:17:54.687
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-06 13:17:54.703
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-06 13:18:09.159
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-04-06 13:18:10.920
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Silver'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-06 13:27:00.245
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-06 13:27:00.256
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-06 15:01:17.316
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-06 15:01:18.770
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-06 15:01:36.648
+!MESSAGE Server Startup Succeeded
+!SESSION 2018-04-13 11:45:25.930 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-13 11:45:32.252
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-13 11:45:32.252
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-13 11:45:39.418
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-04-13 11:45:40.797
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Silver'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 12:01:35.074
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 12:01:36.594
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-04-13 12:01:39.306
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 16842784 2018-04-13 12:01:39.306
+!MESSAGE Poll Thread Aborted: null
+
+!ENTRY org.eclipse.wst.server.core 4 0 2018-04-13 12:01:39.309
+!MESSAGE Server WildFly 11 failed to start.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 12:02:16.536
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 12:02:17.594
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-04-13 12:02:19.698
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 12:03:14.915
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 12:03:15.932
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-04-13 12:03:18.073
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 12:07:00.257
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 12:07:01.314
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-04-13 12:07:03.294
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 12:09:47.955
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 12:09:49.009
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-04-13 12:09:51.048
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 12:11:21.783
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 12:11:22.825
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-04-13 12:11:24.926
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 12:39:48.970
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 12:39:50.017
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-04-13 12:39:52.098
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 12:52:18.044
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 12:52:19.116
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-04-13 12:52:21.284
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 12:54:10.794
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 12:54:11.859
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-04-13 12:54:13.827
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 12:58:43.757
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 12:58:44.832
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-04-13 12:58:46.848
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 13:08:24.113
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 13:08:25.189
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-13 13:08:29.443
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2018-04-13 13:09:26.397
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-04-13 13:09:26.548
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 13:15:55.072
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 13:15:56.140
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-13 13:16:00.739
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2018-04-13 13:16:10.484
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-04-13 13:16:10.690
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 13:17:23.085
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 13:17:24.510
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-13 13:17:29.854
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2018-04-13 13:17:34.601
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-04-13 13:17:34.847
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 13:17:38.764
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 13:17:39.813
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-13 13:17:44.334
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-13 13:32:47.275
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-13 13:32:47.279
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-13 13:32:47.373
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-13 13:32:47.376
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2018-04-13 14:01:22.593
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-04-13 14:01:22.774
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 14:01:22.807
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 14:01:23.879
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-13 14:01:28.503
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-04-13 14:07:44.850
+!MESSAGE Module SR03_Projet on WildFly 11 not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-04-13 14:08:04.974
+!MESSAGE Module SR03_Projet on WildFly 11 still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2018-04-13 14:28:51.036
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-04-13 14:28:51.221
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 14:28:57.283
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 14:28:58.369
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-13 14:29:04.891
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2018-04-13 14:35:32.605
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-04-13 14:35:32.780
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 14:35:37.939
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 14:35:39.014
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-13 14:35:45.645
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2018-04-13 14:39:19.309
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-04-13 14:39:19.558
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 14:39:19.571
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 14:39:20.613
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-13 14:39:27.140
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.eclipse.ui.navigator 4 2 2018-04-13 14:45:55.647
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_REST/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_REST/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 10; La cible de l'instruction de traitement correspondant à "[xX][mM][lL]" n'est pas autorisée.
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1003)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:98)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:35)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:143)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:122)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_REST/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_REST/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 10; La cible de l'instruction de traitement correspondant à "[xX][mM][lL]" n'est pas autorisée.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1518)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1297)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 45 more
+
+!ENTRY org.eclipse.ui.navigator 4 0 2018-04-13 14:45:55.652
+!MESSAGE An exception occurred invoking extension: org.eclipse.jst.jee.ui.web for object P/SR03_REST
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_REST/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_REST/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 10; La cible de l'instruction de traitement correspondant à "[xX][mM][lL]" n'est pas autorisée.
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1003)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:98)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:35)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:143)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:122)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_REST/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_REST/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 10; La cible de l'instruction de traitement correspondant à "[xX][mM][lL]" n'est pas autorisée.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1518)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1297)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 45 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2018-04-13 14:46:03.875
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-04-13 14:46:04.067
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 14:46:04.081
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 14:46:05.130
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-13 14:46:10.572
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.eclipse.core.resources 4 380 2018-04-13 14:47:25.897
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-04-13 14:53:07.292
+!MESSAGE Module SR03_Projet on WildFly 11 not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-04-13 14:53:27.409
+!MESSAGE Module SR03_Projet on WildFly 11 still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-04-13 15:17:11.448
+!MESSAGE Module SR03_Projet on WildFly 11 not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2018-04-13 15:17:16.121
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-04-13 15:17:16.316
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 15:17:16.327
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 15:17:17.378
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-13 15:17:23.478
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-04-13 15:17:31.567
+!MESSAGE Module SR03_Projet on WildFly 11 still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2018-04-13 15:21:42.692
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-04-13 15:21:42.913
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-04-13 15:22:37.670
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-04-13 15:22:38.753
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-04-13 15:22:47.348
+!MESSAGE Server Startup Succeeded
+!SESSION 2018-05-04 13:15:06.814 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-04 13:15:17.085
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-04 13:15:17.093
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-04 13:15:31.481
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-04 13:15:33.634
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Silver'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-05-04 13:21:42.101
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-05-04 13:21:43.672
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-05-04 13:22:07.201
+!MESSAGE Server Startup Succeeded
+!SESSION 2018-05-30 15:43:15.357 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-30 15:43:29.687
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-30 15:43:29.695
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-30 15:43:48.195
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-30 15:43:55.176
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Silver'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-06-01 13:17:46.980 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-01 13:17:55.055
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-01 13:17:55.066
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-01 13:18:04.485
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-01 13:18:06.050
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Silver'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-06-01 13:29:45.905
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-06-01 13:29:47.193
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-06-01 13:30:05.452
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-01 13:35:56.147
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-01 13:35:56.156
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-01 14:15:25.284
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-01 14:15:25.284
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-01 14:38:56.462
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-01 14:38:56.462
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.ui.navigator 4 2 2018-06-01 14:39:17.594
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Fin prématurée du fichier.
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1064)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:98)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:35)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:143)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:122)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:980)
+	at org.eclipse.ui.dialogs.WizardNewFileCreationPage.createNewFile(WizardNewFileCreationPage.java:479)
+	at org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard.performFinish(NewXMLWizard.java:301)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:778)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:417)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:269)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:291)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:92)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:305)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:239)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:390)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:151)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Fin prématurée du fichier.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1518)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1297)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 86 more
+
+!ENTRY org.eclipse.ui.navigator 4 0 2018-06-01 14:39:17.610
+!MESSAGE An exception occurred invoking extension: org.eclipse.jst.jee.ui.web for object P/SR03_web
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Fin prématurée du fichier.
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1064)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:98)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:35)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:143)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:122)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:980)
+	at org.eclipse.ui.dialogs.WizardNewFileCreationPage.createNewFile(WizardNewFileCreationPage.java:479)
+	at org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard.performFinish(NewXMLWizard.java:301)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:778)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:417)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:269)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:291)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:92)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:305)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:239)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:390)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:151)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Fin prématurée du fichier.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1518)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1297)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 86 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-06-01 14:39:17.704
+!MESSAGE An internal error occurred during: "Update web xml".
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 39; Fin prématurée du fichier.
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1003)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jsf.common.internal.componentcore.AbstractJEEModelProviderQuery$DefaultJEEModelProviderQuery.getWebApp(AbstractJEEModelProviderQuery.java:37)
+	at org.eclipse.jst.jsf.common.internal.componentcore.AbstractJEEModelProviderQuery$DefaultJEEModelProviderQuery.getWebAppParamValues(AbstractJEEModelProviderQuery.java:27)
+	at org.eclipse.jst.jsf.facelet.core.internal.registry.taglib.WebappConfiguration$ContextParamAdapter$1.run(WebappConfiguration.java:334)
+	at org.eclipse.jst.jsf.common.internal.resource.WorkspaceMediator$1.runInWorkspace(WorkspaceMediator.java:31)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 39; Fin prématurée du fichier.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1518)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1297)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 18 more
+
+!ENTRY org.eclipse.core.resources 4 380 2018-06-01 14:39:48.864
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-06-01 14:45:03.663
+!MESSAGE An internal error occurred during: "Update web xml".
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Contenu non autorisé dans le prologue.
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1003)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jsf.common.internal.componentcore.AbstractJEEModelProviderQuery$DefaultJEEModelProviderQuery.getWebApp(AbstractJEEModelProviderQuery.java:37)
+	at org.eclipse.jst.jsf.common.internal.componentcore.AbstractJEEModelProviderQuery$DefaultJEEModelProviderQuery.getWebAppParamValues(AbstractJEEModelProviderQuery.java:27)
+	at org.eclipse.jst.jsf.facelet.core.internal.registry.taglib.WebappConfiguration$ContextParamAdapter$1.run(WebappConfiguration.java:334)
+	at org.eclipse.jst.jsf.common.internal.resource.WorkspaceMediator$1.runInWorkspace(WorkspaceMediator.java:31)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Contenu non autorisé dans le prologue.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1518)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1297)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 18 more
+
+!ENTRY org.eclipse.core.resources 4 380 2018-06-01 14:46:53.130
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-06-01 14:46:53.146
+!MESSAGE An internal error occurred during: "Update web xml".
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Contenu non autorisé dans le prologue.
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1003)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:185)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getLastModificationTimeOfDDFile(AbstractMergedModelProvider.java:235)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.hasToReloadModel(AbstractMergedModelProvider.java:229)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:256)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jsf.common.internal.componentcore.AbstractJEEModelProviderQuery$DefaultJEEModelProviderQuery.getWebApp(AbstractJEEModelProviderQuery.java:37)
+	at org.eclipse.jst.jsf.common.internal.componentcore.AbstractJEEModelProviderQuery$DefaultJEEModelProviderQuery.getWebAppParamValues(AbstractJEEModelProviderQuery.java:27)
+	at org.eclipse.jst.jsf.facelet.core.internal.registry.taglib.WebappConfiguration$ContextParamAdapter$1.run(WebappConfiguration.java:334)
+	at org.eclipse.jst.jsf.common.internal.resource.WorkspaceMediator$1.runInWorkspace(WorkspaceMediator.java:31)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; systemId: platform:/resource/SR03_web/WebContent/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Contenu non autorisé dans le prologue.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1518)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1297)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 20 more
+
+!ENTRY org.eclipse.core.resources 4 380 2018-06-01 15:03:36.184
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-01 15:13:41.802
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-01 15:13:41.818
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-06-01 15:45:53.518
+!MESSAGE Module SR03_web on WildFly 11 not yet fully deployed. Waiting...
+!SESSION 2018-06-08 13:19:30.655 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-08 13:19:47.063
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-08 13:19:47.071
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-08 13:20:02.145
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-08 13:20:03.573
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Silver'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-06-08 13:23:25.694
+!MESSAGE The server "WildFly 11" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_162 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-06-08 13:23:27.204
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-06-08 13:23:50.940
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-08 15:19:54.081
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-08 15:19:54.096
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-08 15:28:47.015
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-08 15:28:47.015
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-08 15:54:43.423
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-08 15:54:43.423
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
+<fullyQualifiedTypeName name="model.Finition"/>
+<fullyQualifiedTypeName name="model.Vehicule"/>
+<fullyQualifiedTypeName name="model.Couleurjante"/>
+<fullyQualifiedTypeName name="model.Couleurvehicule"/>
+<fullyQualifiedTypeName name="model.Jante"/>
+<fullyQualifiedTypeName name="model.Modele"/>
+<fullyQualifiedTypeName name="model.Motorisation"/>
+<fullyQualifiedTypeName name="model.Optionvehicule"/>
+</qualifiedTypeNameHistroy>
