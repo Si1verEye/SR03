@@ -1,6 +1,8 @@
 package model;
 
 import java.io.Serializable;
+import java.util.List;
+
 import javax.persistence.*;
 
 
@@ -25,6 +27,10 @@ public class Motorisation implements Serializable {
 	private int puissance;
 
 	private int typeConso;
+	
+	//bi-directional many-to-one association to Vehicule
+	@OneToMany(mappedBy="motorisation")
+	private List<Vehicule> vehicules;
 
 	public Motorisation() {
 	}

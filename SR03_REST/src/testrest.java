@@ -48,5 +48,11 @@ public class testrest {
 		return Response.ok(this.voiture.getMotorisation(id)).build();
     }
 	
+	@GET
+	@Path("/tout")
+    public Response getTout()
+    {
+		return Response.ok(this.voiture.getTout()).build();
+    }
 	
 }

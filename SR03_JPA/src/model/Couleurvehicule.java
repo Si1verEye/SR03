@@ -2,6 +2,7 @@ package model;
 
 import java.io.Serializable;
 import javax.persistence.*;
+import java.util.List;
 
 
 /**
@@ -21,6 +22,10 @@ public class Couleurvehicule implements Serializable {
 	private String finition;
 
 	private String nom;
+
+	//bi-directional many-to-one association to Vehicule
+	@OneToMany(mappedBy="couleurvehicule")
+	private List<Vehicule> vehicule;
 
 	public Couleurvehicule() {
 	}
@@ -56,5 +61,14 @@ public class Couleurvehicule implements Serializable {
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
+
+	public List<Vehicule> getVehicule() {
+		return this.vehicule;
+	}
+
+	public void setVehicules(List<Vehicule> vehicule) {
+		this.vehicule = vehicule;
+	}
+
 
 }

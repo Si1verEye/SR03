@@ -123,7 +123,7 @@ public class Request implements RequestLocal {
     @SuppressWarnings("unchecked")
 	public List<Optionvehicule> getToutesOptionvehicule(int id)
     {
-    	Query q = em.createQuery("select o from Optionvehicule o, OptVehicule h "
+    	Query q = em.createQuery("select o from Optionvehicule o join fetch Vehicule.OptVehicule h "
     			+ "where o.idOption=:h.idOption"
     			+ "where h.idVehicule=:id");
     	q.setParameter("id", id);
@@ -134,11 +134,26 @@ public class Request implements RequestLocal {
     @SuppressWarnings("unchecked")
 	public List<Vehicule> getTousVehiculeoption(int id)
     {
-    	Query q = em.createQuery("select v from Vehicule v, OptVehicule h "
-    			+ "where v.idVehicule=:h.idVehicule"
+    	Query q = em.createQuery("select v from Vehicule v join fetch v.OptVehicule h "
     			+ "where h.idOption=:id");
     	q.setParameter("id", id);
     	
     	return q.getResultList();
+    }
+    
+    @SuppressWarnings("unchecked")
+	public List<String> getTout()
+    {
+    
+    Query q = em.createQuery("select v,j,m,mo from Vehicule v "
+    		+ "join v.jante j "
+//    		+ "join v.couleurvehicule cv "
+//    		+ "join j.couleurjante cj "
+    		+ "join v.finition f "
+    		+ "join v.modele m "
+    		+ "join v.motorisation mo ");
+    	
+    	//Query q = em.createQuery("select v, m from Vehicule v join v.modele m ");
+    return q.getResultList();
     }
 }

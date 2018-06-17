@@ -1,6 +1,8 @@
 package model;
 
 import java.io.Serializable;
+import java.util.List;
+
 import javax.persistence.*;
 
 
@@ -19,6 +21,11 @@ public class Optionvehicule implements Serializable {
 	private double coefficient;
 
 	private String description;
+	
+	//bi-directional many-to-one association to RelFinitionMotorisation
+	//@OneToMany(mappedBy="options")
+	//private List<OptVehiculePK> opt;
+
 
 	public Optionvehicule() {
 	}

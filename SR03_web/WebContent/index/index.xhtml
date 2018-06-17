@@ -54,7 +54,8 @@
 						<td><h:outputText value="#{voiture.idFinition}"/></td>
 						<td><h:outputText value="#{voiture.idJante}"/></td>
 						<td><h:outputText value="#{voiture.idModele}"/></td>
-						<td><h:outputText action="#{voitureGest.getMotorisationByID(voiture.idMotorisation)}" var="motorisation" value="#{motorisation.puissance}"/></td>
+						<ui:repeat action="#{voitureGest.getMotorisationByID(voiture.idMotorisation)}" var="motorisation">
+						<td><h:outputText  value="#{motorisation.puissance}"/></td>
 						<td><h:outputText value="#{voiture.kilometrage}"/></td>
 						<td><h:outputText value="#{voiture.occasion}"/></td>
 					</tr>	

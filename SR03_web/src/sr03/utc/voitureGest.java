@@ -15,6 +15,8 @@ import javax.ws.rs.core.MediaType;
 @ViewScoped
 public class voitureGest {
 	
+	private Client client;
+	
 	private List<vehiculeTemplate> vehiculeTemplate;
 	private List<motorisationTemplate> motorisationTemplate;
 	
@@ -22,17 +24,20 @@ public class voitureGest {
 	public void init()
 	{		
 		this.vehiculeTemplate = new ArrayList<vehiculeTemplate>();
-		this.motorisationTemplate = new ArrayList<motorisationTemplate>();
 		
-		
-		Client client = ClientBuilder.newClient();
+		this.client = ClientBuilder.newClient();
 		
 		this.vehiculeTemplate = client.target("http://localhost:8080/SR03_REST/voiture/all")
 				.request(MediaType.APPLICATION_JSON)
 				.get(new GenericType<List<vehiculeTemplate>>() {});
 		System.out.println("plop");
 		
+	}
+	
+	public void setMotorisationTemplateByID(int motorisation) {
+		this.motorisationTemplate = new ArrayList<motorisationTemplate>();
 		this.motorisationTemplate = client.target("http://localhost:8080/SR03_REST/voiture/motorisationByID")
+				.queryParam("id", motorisation)
 				.request(MediaType.APPLICATION_JSON)
 				.get(new GenericType<List<motorisationTemplate>>() {});
 	}

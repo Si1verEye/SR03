@@ -1,0 +1,87 @@
+package model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.util.Date;
+import java.util.List;
+
+
+/**
+ * The persistent class for the modele database table.
+ * 
+ */
+@Entity
+@NamedQuery(name="Modele.findAll", query="SELECT m FROM Modele m")
+public class Modele implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	private int idModele;
+
+	@Temporal(TemporalType.DATE)
+	private Date anneeModele;
+
+	private double coefficient;
+
+	private String marque;
+
+	private String nom;
+
+	private int prixInitial;
+	
+	//bi-directional many-to-one association to Vehicule
+	@OneToMany(mappedBy="idModele")
+	private List<Vehicule> vehicules;
+
+	public Modele() {
+	}
+
+	public int getIdModele() {
+		return this.idModele;
+	}
+
+	public void setIdModele(int idModele) {
+		this.idModele = idModele;
+	}
+
+	public Date getAnneeModele() {
+		return this.anneeModele;
+	}
+
+	public void setAnneeModele(Date anneeModele) {
+		this.anneeModele = anneeModele;
+	}
+
+	public double getCoefficient() {
+		return this.coefficient;
+	}
+
+	public void setCoefficient(double coefficient) {
+		this.coefficient = coefficient;
+	}
+
+	public String getMarque() {
+		return this.marque;
+	}
+
+	public void setMarque(String marque) {
+		this.marque = marque;
+	}
+
+	public String getNom() {
+		return this.nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public int getPrixInitial() {
+		return this.prixInitial;
+	}
+
+	public void setPrixInitial(int prixInitial) {
+		this.prixInitial = prixInitial;
+	}
+
+}

@@ -27,5 +27,6 @@ public interface RequestLocal {
 	public Optionvehicule getOptionvehicule(int id);
 	public List<Optionvehicule> getToutesOptionvehicule(int id);
 	public List<Vehicule> getTousVehiculeoption(int id);
+	public List<String> getTout();
 
 }

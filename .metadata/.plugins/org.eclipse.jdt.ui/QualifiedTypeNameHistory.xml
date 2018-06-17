@@ -11,4 +11,5 @@
 <fullyQualifiedTypeName name="model.Modele"/>
 <fullyQualifiedTypeName name="model.Motorisation"/>
 <fullyQualifiedTypeName name="model.Optionvehicule"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
