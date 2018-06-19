@@ -1,0 +1,46 @@
+package sr03.utc;
+import java.util.Date;
+
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+public class motorisationTemplate {
+	
+	private int idMotorisation;
+	private int typeConso;
+	private int cylindree;
+	private int conso100;
+	private int puissance;
+	
+	public int getIdMotorisation() {
+		return idMotorisation;
+	}
+	public void setIdMotorisation(int idMotorisation) {
+		this.idMotorisation = idMotorisation;
+	}
+	public int getTypeConso() {
+		return typeConso;
+	}
+	public void setTypeConso(int typeConso) {
+		this.typeConso = typeConso;
+	}
+	public int getCylindree() {
+		return cylindree;
+	}
+	public void setCylindree(int cylindree) {
+		this.cylindree = cylindree;
+	}
+	public int getConso100() {
+		return conso100;
+	}
+	public void setConso100(int conso100) {
+		this.conso100 = conso100;
+	}
+	public int getPuissance() {
+		return puissance;
+	}
+	public void setPuissance(int puissance) {
+		this.puissance = puissance;
+	}
+}
+

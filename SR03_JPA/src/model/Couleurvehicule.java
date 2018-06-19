@@ -23,9 +23,9 @@ public class Couleurvehicule implements Serializable {
 
 	private String nom;
 
-	//bi-directional many-to-one association to Vehicule
-	@OneToMany(mappedBy="couleurvehicule")
-	private List<Vehicule> vehicule;
+//	//bi-directional many-to-one association to Vehicule
+//	@OneToMany(mappedBy="couleurvehicule")
+//	private List<Vehicule> vehicule;
 
 	public Couleurvehicule() {
 	}
@@ -62,13 +62,13 @@ public class Couleurvehicule implements Serializable {
 		this.nom = nom;
 	}
 
-	public List<Vehicule> getVehicule() {
-		return this.vehicule;
-	}
-
-	public void setVehicules(List<Vehicule> vehicule) {
-		this.vehicule = vehicule;
-	}
+//	public List<Vehicule> getVehicule() {
+//		return this.vehicule;
+//	}
+//
+//	public void setVehicules(List<Vehicule> vehicule) {
+//		this.vehicule = vehicule;
+//	}
 
 
 }

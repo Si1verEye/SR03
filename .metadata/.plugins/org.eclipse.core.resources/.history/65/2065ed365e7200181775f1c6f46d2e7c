@@ -1,0 +1,15 @@
+package sr03.utc;
+import java.util.Date;
+
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+public class modeleTemplate {
+	private int idModele;
+	private double coefficient;
+	private String nom;
+	private String marque;
+	private int prixInitial;
+	private Date anneeModele;
+
+}

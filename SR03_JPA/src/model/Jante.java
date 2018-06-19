@@ -20,18 +20,18 @@ public class Jante implements Serializable {
 
 	private double coefficient;
 
-	//bi-directional many-to-one association to CouleurJante
-	@ManyToOne
-	@JoinColumn(name="idCouleurJante")
-	private Couleurjante couleurjante;
+//	//bi-directional many-to-one association to CouleurJante
+//	@ManyToOne
+//	@JoinColumn(name="idCouleurJante")
+//	private Couleurjante couleurjante;
 
-//	private int idCouleurJante;
+	private int idCouleurJante;
 
 	private int taille;
 	
-	//bi-directional many-to-one association to Vehicule
-	@OneToMany(mappedBy="jante")
-	private List<Vehicule> vehicules;
+//	//bi-directional many-to-one association to Vehicule
+//	@OneToMany(mappedBy="jante")
+//	private List<Vehicule> vehicules;
 
 	public Jante() {
 	}
@@ -52,13 +52,13 @@ public class Jante implements Serializable {
 		this.coefficient = coefficient;
 	}
 
-//	public int getIdCouleurJante() {
-//		return this.idCouleurJante;
-//	}
-//
-//	public void setIdCouleurJante(int idCouleurJante) {
-//		this.idCouleurJante = idCouleurJante;
-//	}
+	public int getIdCouleurJante() {
+		return this.idCouleurJante;
+	}
+
+	public void setIdCouleurJante(int idCouleurJante) {
+		this.idCouleurJante = idCouleurJante;
+	}
 
 	public int getTaille() {
 		return this.taille;

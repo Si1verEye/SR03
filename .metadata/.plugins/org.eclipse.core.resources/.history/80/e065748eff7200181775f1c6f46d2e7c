@@ -1,0 +1,8 @@
+package sr03.utc;
+import java.util.Date;
+
+public class prixTemplate {
+	private vehiculeTemplate vT;
+	
+	
+}

@@ -27,10 +27,10 @@ public class Motorisation implements Serializable {
 	private int puissance;
 
 	private int typeConso;
-	
-	//bi-directional many-to-one association to Vehicule
-	@OneToMany(mappedBy="motorisation")
-	private List<Vehicule> vehicules;
+//	
+//	//bi-directional many-to-one association to Vehicule
+//	@OneToMany(mappedBy="motorisation")
+//	private List<Vehicule> vehicules;
 
 	public Motorisation() {
 	}

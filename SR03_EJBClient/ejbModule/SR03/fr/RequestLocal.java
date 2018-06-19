@@ -17,16 +17,19 @@ import model.Vehicule;
 public interface RequestLocal {
 	
 	public List<Vehicule> getTousVehicules();
+	public List<Motorisation> getTousMotorisation();
+	public List<Modele> getTousModeles();
+	public List<Couleurvehicule> getTousCouleurVehicule();
 	public Vehicule getVehicule(int id);
-	public Couleurjante getCouleurJante(int id);
-	public Couleurvehicule getCouleurVehicule(int id);
-	public Finition getFinition(int id);
-	public Jante getJante(int id);
-	public Modele getModele(int id);
-	public Motorisation getMotorisation(int id);
+	public List<Couleurjante> getCouleurJante(int id);
+	public List<Couleurvehicule> getCouleurVehicule(int id);
+	public List<Finition> getFinition(int id);
+	public List<Jante> getJante(int id);
+	public List<Modele> getModele(int id);
+	public List<Motorisation> getMotorisation(int id);
 	public Optionvehicule getOptionvehicule(int id);
 	public List<Optionvehicule> getToutesOptionvehicule(int id);
 	public List<Vehicule> getTousVehiculeoption(int id);
-	public List<String> getTout();
+	public List<Vehicule> getTousVehiculeModColor(int idMod, int idColorV);
 
 }

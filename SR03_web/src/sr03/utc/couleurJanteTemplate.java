@@ -5,14 +5,33 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 public class couleurJanteTemplate {
+	private int idCouleurJante;
+	private double coefficient;
+	private String nom;
+	private String finition;
 	
-	private int idVehicule;
-	private Date dateProd;
-	private int idCouleurVehicule;
-	private int idFinition;
-	private int idJante;
-	private int idModele;
-	private int idMotorisation;
-	private int kilometrage;
-	private byte occasion;
+	public int getIdCouleurJante() {
+		return idCouleurJante;
+	}
+	public void setIdCouleurJante(int idCouleurJante) {
+		this.idCouleurJante = idCouleurJante;
+	}
+	public double getCoefficient() {
+		return coefficient;
+	}
+	public void setCoefficient(double coefficient) {
+		this.coefficient = coefficient;
+	}
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public String getFinition() {
+		return finition;
+	}
+	public void setFinition(String finition) {
+		this.finition = finition;
+	}
 }

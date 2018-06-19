@@ -21,9 +21,9 @@ public class Finition implements Serializable {
 
 	private String nom;
 
-	//bi-directional many-to-one association to Vehicule
-	@OneToMany(mappedBy="finition")
-	private List<Vehicule> vehicules;
+//	//bi-directional many-to-one association to Vehicule
+//	@OneToMany(mappedBy="finition")
+//	private List<Vehicule> vehicules;
 
 	public Finition() {
 	}
@@ -52,12 +52,12 @@ public class Finition implements Serializable {
 		this.nom = nom;
 	}
 
-	public List<Vehicule> getVehicules() {
-		return this.vehicules;
-	}
-
-	public void setVehicules(List<Vehicule> vehicules) {
-		this.vehicules = vehicules;
-	}
+//	public List<Vehicule> getVehicules() {
+//		return this.vehicules;
+//	}
+//
+//	public void setVehicules(List<Vehicule> vehicules) {
+//		this.vehicules = vehicules;
+//	}
 
 }

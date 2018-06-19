@@ -7,10 +7,12 @@ import javax.persistence.TemporalType;
 public class motorisationTemplate {
 	
 	private int idMotorisation;
-	private int typeConso;
+	private int coefficient;
 	private int cylindree;
 	private int conso100;
 	private int puissance;
+	private int typeConso;
+	
 	public int getIdMotorisation() {
 		return idMotorisation;
 	}
@@ -40,6 +42,12 @@ public class motorisationTemplate {
 	}
 	public void setPuissance(int puissance) {
 		this.puissance = puissance;
+	}
+	public int getCoefficient() {
+		return coefficient;
+	}
+	public void setCoefficient(int coefficient) {
+		this.coefficient = coefficient;
 	}
 }
 

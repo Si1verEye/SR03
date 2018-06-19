@@ -29,9 +29,9 @@ public class Modele implements Serializable {
 
 	private int prixInitial;
 	
-	//bi-directional many-to-one association to Vehicule
-	@OneToMany(mappedBy="modele")
-	private List<Vehicule> vehicules;
+//	//bi-directional many-to-one association to Vehicule
+//	@OneToMany(mappedBy="modele")
+//	private List<Vehicule> vehicules;
 
 	public Modele() {
 	}

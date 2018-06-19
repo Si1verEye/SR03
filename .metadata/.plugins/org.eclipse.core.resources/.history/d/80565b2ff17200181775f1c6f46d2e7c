@@ -1,0 +1,120 @@
+package sr03.utc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.core.GenericType;
+import javax.ws.rs.core.MediaType;
+
+@ManagedBean
+@ViewScoped
+public class voitureGest {
+	
+	private Client client;
+	
+	private List<modeleTemplate> modeleTemplate;
+	private List<couleurVehiculeTemplate> couleurVehiculeTemplate;
+	
+	private int selectedModele;
+	private int selectedMotor;
+	private int selectedColor;
+	
+	private List<vehiculeTemplate> vehiculeTemplate;
+	private List<motorisationTemplate> motorisationTemplate;
+	
+	@PostConstruct
+	public void init()
+	{		
+
+		this.client = ClientBuilder.newClient();
+		
+		this.motorisationTemplate = client.target("http://localhost:8080/SR03_REST/voiture/allM")
+				.request(MediaType.APPLICATION_JSON)
+				.get(new GenericType<List<motorisationTemplate>>() {});
+		
+		this.modeleTemplate = client.target("http://localhost:8080/SR03_REST/voiture/allMod")
+				.request(MediaType.APPLICATION_JSON)
+				.get(new GenericType<List<modeleTemplate>>() {});
+		
+		this.couleurVehiculeTemplate = client.target("http://localhost:8080/SR03_REST/voiture/allCV")
+				.request(MediaType.APPLICATION_JSON)
+				.get(new GenericType<List<couleurVehiculeTemplate>>() {});
+			
+	}
+	
+	public void resultatFormulaire() {
+		this.client = ClientBuilder.newClient();
+		this.vehiculeTemplate = client.target("http://localhost:8080/SR03_REST/voiture/tout")
+				.queryParam("idMod",this.selectedModele)
+				.queryParam("idColorV",this.selectedColor)
+				.request(MediaType.APPLICATION_JSON)
+				.get(new GenericType<List<vehiculeTemplate>>() {});
+		for(int i = 0; i < this.vehiculeTemplate.size();i++) {
+			System.out.println(this.vehiculeTemplate.get(i).getKilometrage());
+		}
+	}
+	
+	public List<motorisationTemplate> getMotorisationTemplate(){
+		return this.motorisationTemplate;
+	}
+	
+	public void setMotorTemplate(List<motorisationTemplate> motorisationTemplate) {
+		this.motorisationTemplate = motorisationTemplate;
+	}
+
+	public List<vehiculeTemplate> getVehiculeTemplate() {
+		return vehiculeTemplate;
+	}
+
+	public void setVoitureTemplate(List<vehiculeTemplate> vehiculeTemplate) {
+		this.vehiculeTemplate = vehiculeTemplate;
+	}
+
+	public List<modeleTemplate> getModeleTemplate() {
+		return modeleTemplate;
+	}
+
+	public void setModeleTemplate(List<modeleTemplate> modeleTemplate) {
+		this.modeleTemplate = modeleTemplate;
+	}
+
+	public int getSelectedModele() {
+		return selectedModele;
+	}
+
+	public void setSelectedModele(int selectedModele) {
+		this.selectedModele = selectedModele;
+	}
+
+	public int getSelectedMotor() {
+		return selectedMotor;
+	}
+
+	public void setSelectedMotor(int selectedMotor) {
+		this.selectedMotor = selectedMotor;
+	}
+
+	public List<couleurVehiculeTemplate> getCouleurVehiculeTemplate() {
+		return couleurVehiculeTemplate;
+	}
+
+	public void setCouleurVehiculeTemplate(List<couleurVehiculeTemplate> couleurVehiculeTemplate) {
+		this.couleurVehiculeTemplate = couleurVehiculeTemplate;
+	}
+
+	public int getSelectedColor() {
+		return selectedColor;
+	}
+
+	public void setSelectedColor(int selectedColor) {
+		this.selectedColor = selectedColor;
+	}
+
+	
+
+}

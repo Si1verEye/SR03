@@ -28,10 +28,59 @@ public class testrest {
     }
 	
 	@GET
+	@Path("/couleurJanteByID")
+    public Response getCouleurJante(@QueryParam("id") int id)
+    {
+		return Response.ok(this.voiture.getCouleurJante(id)).build();
+    }
+	
+	@GET
+	@Path("/couleurVehiculeByID")
+    public Response getCouleurVehicule(@QueryParam("id") int id)
+    {
+		return Response.ok(this.voiture.getCouleurVehicule(id)).build();
+    }
+	
+	@GET
+	@Path("/janteByID")
+    public Response getJante(@QueryParam("id") int id)
+    {
+		return Response.ok(this.voiture.getJante(id)).build();
+    }
+	
+	@GET
+	@Path("/modeleByID")
+    public Response getModele(@QueryParam("id") int id)
+    {
+		return Response.ok(this.voiture.getModele(id)).build();
+    }
+	
+	@GET
 	@Path("/all")
     public Response getAll()
     {
 		return Response.ok(this.voiture.getTousVehicules()).build();
+    }
+	
+	@GET
+	@Path("/allM")
+    public Response getAllMotorisation()
+    {
+		return Response.ok(this.voiture.getTousMotorisation()).build();
+    }
+	
+	@GET
+	@Path("/allMod")
+    public Response getAllModele()
+    {
+		return Response.ok(this.voiture.getTousModeles()).build();
+    }
+	
+	@GET
+	@Path("/allCV")
+    public Response getAllColorV()
+    {
+		return Response.ok(this.voiture.getTousCouleurVehicule()).build();
     }
 	
 	@GET
@@ -42,17 +91,10 @@ public class testrest {
     }
 	
 	@GET
-	@Path("/priceByID")
-    public Response getPriceByID(@QueryParam("id") int id)
-    {
-		return Response.ok(this.voiture.getMotorisation(id)).build();
-    }
-	
-	@GET
 	@Path("/tout")
-    public Response getTout()
+    public Response getVehiculeForm(@QueryParam("idMod") int idMod,@QueryParam("idColorV") int idColorV)
     {
-		return Response.ok(this.voiture.getTout()).build();
+		return Response.ok(this.voiture.getTousVehiculeModColor(idMod, idColorV)).build();
     }
 	
 }

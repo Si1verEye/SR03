@@ -1,0 +1,11 @@
+package sr03.utc;
+import java.util.Date;
+
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+public class finitionTemplate {
+	private int idFinition;
+	private double coefficient;
+	private String nom;
+}

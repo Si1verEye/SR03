@@ -1,0 +1,59 @@
+package sr03.utc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.core.GenericType;
+import javax.ws.rs.core.MediaType;
+
+@ManagedBean
+@ViewScoped
+public class voitureGest {
+	
+	private Client client;
+	
+	private List<vehiculeTemplate> vehiculeTemplate;
+	private List<motorisationTemplate> motorisationTemplate;
+	
+	@PostConstruct
+	public void init()
+	{		
+		this.vehiculeTemplate = new ArrayList<vehiculeTemplate>();
+		this.motorisationTemplate = new ArrayList<motorisationTemplate>();
+		
+		this.client = ClientBuilder.newClient();
+		
+		this.vehiculeTemplate = client.target("http://localhost:8080/SR03_REST/voiture/all")
+				.request(MediaType.APPLICATION_JSON)
+				.get(new GenericType<List<vehiculeTemplate>>() {});
+		
+		this.motorisationTemplate = client.target("http://localhost:8080/SR03_REST/voiture/allM")
+				.request(MediaType.APPLICATION_JSON)
+				.get(new GenericType<List<motorisationTemplate>>() {});
+			
+	}
+	
+	public List<motorisationTemplate> getMotorTemplate(){
+		return this.motorisationTemplate;
+	}
+	
+	public void setMotorTemplate(List<motorisationTemplate> motorisationTemplate) {
+		this.motorisationTemplate = motorisationTemplate;
+	}
+
+	public List<vehiculeTemplate> getVehiculeTemplate() {
+		return vehiculeTemplate;
+	}
+
+	public void setVoitureTemplate(List<vehiculeTemplate> vehiculeTemplate) {
+		this.vehiculeTemplate = vehiculeTemplate;
+	}
+
+	
+
+}
